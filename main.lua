@@ -30,10 +30,10 @@ end
 
 while wait() do
     if settings.Punching == true then do 
-    game:GetService("ReplicatedStorage").Network.Port1:FireServer("Punching", game:GetService("Workspace").PowerTrainingFolder.Model)
+        game:GetService("ReplicatedStorage").Network.Port1:FireServer("Punching", game:GetService("Workspace").PowerTrainingFolder.Model)
     end
     if settings.Do_Lifts == true then do
-    game:GetService("ReplicatedStorage").Network.Port1:FireServer("Click")
+        game:GetService("ReplicatedStorage").Network.Port1:FireServer("Click")
     end
     if settings.Sell_Energy == true then do
         game:GetService("ReplicatedStorage").Network.Port1:FireServer("SellEnergy")
